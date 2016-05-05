@@ -5,4 +5,16 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>Sakura-Plugin-HKOWeather</name>
   <description>HKO Weather Plugin for Sakura</description>
+  <dependencies>
+  	<dependency>
+  		<groupId>com.mob41.sakura</groupId>
+  		<artifactId>Sakura</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.mob41.hkoweather.api</groupId>
+  		<artifactId>HKOWeather-API</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
 </project>
