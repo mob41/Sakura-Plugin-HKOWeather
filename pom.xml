@@ -5,16 +5,22 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>Sakura-Plugin-HKOWeather</name>
   <description>HKO Weather Plugin for Sakura</description>
+  <repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
   <dependencies>
   	<dependency>
-  		<groupId>com.mob41.sakura</groupId>
+  		<groupId>com.github.mob41</groupId>
   		<artifactId>Sakura</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
+  		<version>-SNAPSHOT</version>
   	</dependency>
   	<dependency>
-  		<groupId>com.mob41.hkoweather.api</groupId>
+  		<groupId>com.github.mob41</groupId>
   		<artifactId>HKOWeather-API</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
+  		<version>-SNAPSHOT</version>
   	</dependency>
   </dependencies>
 </project>
