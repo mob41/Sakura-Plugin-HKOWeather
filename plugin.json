@@ -1,5 +1,0 @@
-{
-	"name": "Sakura-Plugin-HKOWeather",
-	"class": "com.mob41.sakura.plugin.weather.hko.HKOWeatherPlugin",
-	"version": "SNAPSHOT"
-}

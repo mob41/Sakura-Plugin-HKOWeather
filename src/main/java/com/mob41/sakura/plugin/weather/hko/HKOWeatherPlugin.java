@@ -12,13 +12,13 @@ public class HKOWeatherPlugin extends Plugin {
 	
 	private JSONObject revData;
 	
-	public HKOWeatherPlugin(String stationCode) throws InvaildStationException{
-		weatherman = new WeatherManager(stationCode);
-	}
-	
 	@Override
 	public void onCallPlugin() {
-		
+		try {
+			weatherman = new WeatherManager();
+		} catch (InvaildStationException e) {
+			e.printStackTrace();
+		}
 	}
 
 	@Override

@@ -1,0 +1,8 @@
+{
+	"name": "Sakura-Plugin-HKOWeather",
+	"class": "com.mob41.sakura.plugin.weather.hko.HKOWeatherPlugin",
+	"version": "SNAPSHOT",
+	"author": "mob41",
+	"website": "http://github.com/mob41/Sakura-Plugin-HKOWeather",
+	"desc": "A plugin for Sakura to fetch weather from Hong Kong Observatory"
+}
