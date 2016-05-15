@@ -15,7 +15,7 @@
   	<dependency>
   		<groupId>com.github.mob41</groupId>
   		<artifactId>Sakura</artifactId>
-  		<version>-SNAPSHOT</version>
+  		<version>9977b250d8</version>
   	</dependency>
   	<dependency>
   		<groupId>com.github.mob41</groupId>

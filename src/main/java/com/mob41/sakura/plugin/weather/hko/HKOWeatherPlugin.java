@@ -5,8 +5,13 @@ import org.json.JSONObject;
 import com.mob41.hkoweather.api.WeatherManager;
 import com.mob41.hkoweather.exception.InvaildStationException;
 import com.mob41.sakura.plugin.Plugin;
+import com.mob41.sakura.plugin.PluginDescription;
 
 public class HKOWeatherPlugin extends Plugin {
+
+	public HKOWeatherPlugin(PluginDescription pluginDesc) {
+		super(pluginDesc);
+	}
 
 	private WeatherManager weatherman;
 	
